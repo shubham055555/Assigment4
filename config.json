@@ -1,0 +1,20 @@
+{
+  "L1": {
+    "size_kb": 32,
+    "block_size_bytes": 64,
+    "associativity": 4,
+    "hit_time_cycles": 4,
+    "write_policy": "write-back"
+  },
+  "L2": {
+    "size_kb": 256,
+    "block_size_bytes": 64,
+    "associativity": 8,
+    "hit_time_cycles": 12,
+    "write_policy": "write-back"
+  },
+  "main_memory": {
+    "access_time_cycles": 200
+  },
+  "cpu_frequency_ghz": 3.0
+}
